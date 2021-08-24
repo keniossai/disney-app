@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
@@ -7,30 +8,30 @@ function Header() {
             <Logo src='/images/logo.svg' />
 
             <NavMenu>
-                <a href="">
+                <Link href="">
                     <img src="/images/home-icon.svg" alt="" />
                     <span>HOME</span>
-                </a>
-                <a href="">
+                </Link>
+                <Link href="">
                     <img src="/images/search-icon.svg" alt="" />
                     <span>SEARCH</span>
-                </a>
-                <a href="">
+                </Link>
+                <Link href="">
                     <img src="/images/watchlist-icon.svg" alt="" />
                     <span>WATCHLIST</span>
-                </a>
-                <a href="">
+                </Link>
+                <Link href="">
                     <img src="/images/original-icon.svg" alt="" />
                     <span>ORIGINAL</span>
-                </a>
-                <a href="">
+                </Link>
+                <Link href="">
                     <img src="/images/movie-icon.svg" alt="" />
                     <span>MOVIE</span>
-                </a>
-                <a href="">
+                </Link>
+                <Link href="">
                     <img src="/images/series-icon.svg" alt="" />
                     <span>SERIES</span>
-                </a>
+                </Link>
             </NavMenu>
             <UserImg src='https://avatars.githubusercontent.com/u/49806812?v=4' />
         </Nav>
