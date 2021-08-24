@@ -45,9 +45,11 @@ const Nav = styled.nav`
     display: flex;
     padding: 0 30px;
     align-items: center;
+    overflow-x: hidden;
 `
 const Logo = styled.img`
     width: 80px;
+    cursor: pointer;
 `
 
 const NavMenu = styled.div`
